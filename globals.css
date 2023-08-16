@@ -20,3 +20,9 @@ body {
   font-family: 'Space Mono', monospace;
   background: var(--light-grayish-cyan);
 }
+
+input {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5rem;
+  color: var(--very-dark-cyan);
+}

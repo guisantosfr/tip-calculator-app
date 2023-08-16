@@ -1,9 +1,56 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+.wrapper img {
+  margin: 2rem 0;
+}
+
 .calculator {
+  width: 100%;
+
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+
+  padding: 2rem;
+
   background: var(--white);
+}
+
+.left>* {
+  margin-bottom: 1rem;
+}
+
+.left label {
+  color: var(--dark-grayish-cyan);
+}
+
+input {
+  border-radius: 5px;
+  border: none;
+  background: var(--very-light-grayish-cyan);
+}
+
+.bill input,
+.people input {
+  width: 100%;
+  padding: .5rem;
+  margin-top: .5rem;
+  text-align: right;
 }
 
 
 
+
+.right {
+  background: var(--very-dark-cyan);
+
+  border-radius: 10px;
+  padding: 2rem 1rem;
+}
 
 .attribution {
   font-size: 11px;
