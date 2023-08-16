@@ -21,7 +21,7 @@
       <div class="left">
         <div class="bill">
           <label>Bill</label>
-          <input type="number" id="bill" name="bill" placeholder="0">
+          <input type="number" id="bill" name="bill" placeholder="0" min="0">
         </div>
 
         <div class="tip">
@@ -61,18 +61,18 @@
 
         <div class="people">
           <label>Number of people</label>
-          <input type="number" id="people" name="people" placeholder="1" min="1">
+          <input type="number" id="people" name="people" placeholder="0" min="1">
         </div>
       </div>
 
       <div class="right">
         <div>
-          <label>Tip Amount / person</label>
-          <output>$4.27</output> <!--CHECK LATER-->
+          <label>Tip Amount <br><span class="per-person">/ person</span></label>
+          <output>$4.27</output>
         </div>
 
         <div>
-          <label>Total / person</label>
+          <label>Total <br><span class="per-person">/ person</span></label>
           <output>$32.79</output>
         </div>
 

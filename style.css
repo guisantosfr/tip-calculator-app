@@ -12,8 +12,7 @@
 .calculator {
   width: 100%;
 
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  border-radius: 25px;
 
   padding: 2rem;
 
@@ -34,12 +33,26 @@ input {
   background: var(--very-light-grayish-cyan);
 }
 
+input::placeholder {
+  color: var(--dark-grayish-cyan);
+}
+
 .bill input,
 .people input {
   width: 100%;
   padding: .5rem;
   margin-top: .5rem;
   text-align: right;
+}
+
+.bill input {
+  background: url("images/icon-dollar.svg") no-repeat 15px 15px;
+  background-size: 15px;
+}
+
+.people input {
+  background: url("images/icon-person.svg") no-repeat 15px 15px;
+  background-size: 15px;
 }
 
 .tip-buttons {
@@ -58,7 +71,7 @@ input {
 .tip-buttons label {
   display: inline-block;
   background: var(--very-dark-cyan);
-  color: var(--white);
+  color: var(--very-light-grayish-cyan);
   padding: .5rem;
   border-radius: 5px;
   width: 100%;
@@ -77,16 +90,44 @@ input[id="custom"] {
   padding-left: 1rem;
 }
 
-
 .right {
   background: var(--very-dark-cyan);
-
   border-radius: 10px;
-  padding: 2rem 1rem;
+  padding: 2rem;
+}
+
+.right div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.right label {
+  color: var(--very-light-grayish-cyan);
+}
+
+.per-person {
+  color: var(--dark-grayish-cyan);
+}
+
+.right output {
+  color: var(--strong-cyan);
+  font-size: 2rem;
+}
+
+.right button {
+  width: 100%;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding: .5em;
+  border-radius: 5px;
+
+  background-color: var(--strong-cyan);
+  color: var(--very-dark-cyan);
 }
 
 .attribution {
-  font-size: 11px;
+  margin: 3rem 0;
   text-align: center;
 }
 
