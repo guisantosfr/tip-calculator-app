@@ -18,45 +18,68 @@
 
     <img src="./images/logo.svg" alt="Splitter">
 
-    <form class="calculator"><!--FORM?-->
+    <main class="calculator">
       <div class="left">
         <div>
-          <p>Bill</p><!--LABEL?-->
-          <input type="number">
+          <label>Bill</label>
+          <input type="number" id="bill" name="bill" placeholder="0">
         </div>
 
         <div>
-          <p>Select Tip %</p>
-          <div><!--RADIO BUTTONS-->
-            5%
-            10%
-            15%
-            25%
-            50%
-            Custom
+          <label>Select Tip %</label>
+
+          <div class="tip-buttons">
+            <div>
+              <input type="radio" name="tip" id="0.05" value="5%">
+              <label for="0.05">5%</label>
+            </div>
+
+            <div>
+              <input type="radio" name="tip" id="0.1" value="10%">
+              <label for="0.1">10%</label>
+            </div>
+
+            <div>
+              <input type="radio" name="tip" id="0.15" value="15%">
+              <label for="0.15">15%</label>
+            </div>
+
+            <div>
+              <input type="radio" name="tip" id="0.25" value="25%">
+              <label for="0.25">25%</label>
+            </div>
+
+            <div>
+              <input type="radio" name="tip" id="0.5" value="50%">
+              <label for="0.5">50%</label>
+            </div>
+
+            <div>
+              <input type="number" id="custom" name="custom" placeholder="Custom">
+            </div>
           </div>
         </div>
 
         <div>
-          <p>Number of people</p><!--LABEL?-->
-          <input type="number">
+          <label>Number of people</label>
+          <input type="number" id="people" name="people" placeholder="1" min="1">
         </div>
       </div>
 
       <div class="right">
         <div>
-          <p>Tip Amount / person</p><!--SPAN?-->
-          <p>$4.27</p>
+          <label>Tip Amount / person</label>
+          <output>$4.27</output> <!--CHECK LATER-->
         </div>
 
         <div>
-          <p>Total / person</p>
-          <p>$32.79</p>
+          <label>Total / person</label>
+          <output>$32.79</output>
         </div>
 
         <button>Reset</button>
       </div>
-    </form>
+    </main>
 
     <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
