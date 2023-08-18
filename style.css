@@ -134,12 +134,12 @@ input[id="custom"] {
   color: var(--very-dark-cyan);
 }
 
-.right button:hover{
+.right button:hover {
   filter: brightness(1.25);
 }
 
 .attribution {
-  margin: 3rem 0;
+  margin: 2rem 0;
   text-align: center;
 }
 
@@ -147,6 +147,6 @@ input[id="custom"] {
   color: hsl(228, 45%, 44%);
 }
 
-.attribution a:hover{
+.attribution a:hover {
   filter: brightness(1.5);
 }

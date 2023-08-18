@@ -1,42 +1,36 @@
-@media(min-width: 650px){
-    .wrapper{
-        margin-top: 10vh;
-    }
-
-    .calculator{
+@media(min-width: 650px) {
+    .calculator {
         display: flex;
         justify-content: space-between;
         gap: 2rem;
         width: 95%;
     }
 
-    .left, .right{
+    .left,
+    .right {
         flex: 1 1 0;
     }
 
-    .right{
+    .right {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 }
 
-@media(min-width: 1000px){
-    .wrapper img {
-        margin: 5rem 0;
-    }
-
-    .calculator{
+@media(min-width: 1000px) {
+    .calculator {
         width: 80%;
         max-width: 950px;
     }
 
-    .left, .right{
+    .left,
+    .right {
         flex: 1 1 0;
     }
 }
 
-@media(min-width: 1200px){
+@media(min-width: 1200px) {
     .tip-buttons div {
         width: 30%;
         margin-right: .25rem;
