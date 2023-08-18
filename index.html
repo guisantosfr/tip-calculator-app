@@ -22,7 +22,7 @@
       <div class="left">
         <div class="bill">
           <label>Bill</label>
-          <input type="number" id="bill" name="bill" placeholder="0" min="0">
+          <input type="number" id="bill" name="bill" placeholder="0" min="0" oninput="validity.valid||(value='');">
         </div>
 
         <div class="tip">
@@ -72,7 +72,7 @@
             <label>Tip Amount <br><span class="per-person">/ person</span></label>
             <output>$4.27</output>
           </div>
-  
+
           <div>
             <label>Total <br><span class="per-person">/ person</span></label>
             <output>$32.79</output>

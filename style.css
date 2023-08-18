@@ -40,18 +40,26 @@ input::placeholder {
 .bill input,
 .people input {
   width: 100%;
-  padding: .5rem;
   margin-top: .5rem;
+  padding: 1rem .5rem;
   text-align: right;
 }
 
+input[type=number]:focus {
+  outline-color: var(--strong-cyan);
+}
+
+input[type=number]:invalid {
+  outline-color: red;
+}
+
 .bill input {
-  background: url("images/icon-dollar.svg") no-repeat 15px 15px;
+  background: url("images/icon-dollar.svg") no-repeat 15px 22px;
   background-size: 15px;
 }
 
 .people input {
-  background: url("images/icon-person.svg") no-repeat 15px 15px;
+  background: url("images/icon-person.svg") no-repeat 15px 22px;
   background-size: 15px;
 }
 
@@ -126,6 +134,10 @@ input[id="custom"] {
   color: var(--very-dark-cyan);
 }
 
+.right button:hover{
+  filter: brightness(1.25);
+}
+
 .attribution {
   margin: 3rem 0;
   text-align: center;
@@ -133,4 +145,8 @@ input[id="custom"] {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover{
+  filter: brightness(1.5);
 }
