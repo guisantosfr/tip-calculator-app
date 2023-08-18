@@ -1,12 +1,12 @@
 .wrapper {
   display: flex;
   align-items: center;
-
+  justify-content: center;
   flex-direction: column;
 }
 
 .wrapper img {
-  margin: 2rem 0;
+  margin: 3rem 0;
 }
 
 .calculator {
@@ -96,10 +96,10 @@ input[id="custom"] {
   padding: 2rem;
 }
 
-.right div {
+.outputs div {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .right label {

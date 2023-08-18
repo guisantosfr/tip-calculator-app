@@ -8,6 +8,7 @@
   <title>Frontend Mentor | Tip calculator app</title>
   <link rel="stylesheet" href="./globals.css">
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
@@ -66,14 +67,16 @@
       </div>
 
       <div class="right">
-        <div>
-          <label>Tip Amount <br><span class="per-person">/ person</span></label>
-          <output>$4.27</output>
-        </div>
-
-        <div>
-          <label>Total <br><span class="per-person">/ person</span></label>
-          <output>$32.79</output>
+        <div class="outputs">
+          <div>
+            <label>Tip Amount <br><span class="per-person">/ person</span></label>
+            <output>$4.27</output>
+          </div>
+  
+          <div>
+            <label>Total <br><span class="per-person">/ person</span></label>
+            <output>$32.79</output>
+          </div>
         </div>
 
         <button>Reset</button>
