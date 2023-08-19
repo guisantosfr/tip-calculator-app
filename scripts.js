@@ -29,8 +29,11 @@ billInput.addEventListener('input', e => {
 })
 
 tipButtons.addEventListener('click', e => {
-    tip = e.target.value
-    calculate()
+    if (e.target.type === "radio") {
+        customInput.value = ''
+        tip = e.target.value
+        calculate()
+    }
 })
 
 customInput.addEventListener('input', e => {
