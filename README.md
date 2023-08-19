@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/tip-calculator-implemented-with-plain-html-css-and-js-uFzpkvnEXm))
+- [Solution URL](https://www.frontendmentor.io/solutions/tip-calculator-implemented-with-plain-html-css-and-js-uFzpkvnEXm)
 - [Live site URL](https://guisantosfr.github.io/tip-calculator-app/)
 
 ## My process
